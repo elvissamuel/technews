@@ -1,11 +1,13 @@
 import Image from 'next/image'
+import CategoriesList from './components/CategoriesList'
 
 export default function Home() {
   return (
-    <main className="">
+    <>
+    <CategoriesList />
       <div>
-        Hello
+        Post
       </div>
-    </main>
+    </>
   )
 }
